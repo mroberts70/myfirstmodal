@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    position: relative;
+    background-color: darkslategrey;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50px;
+}
+
+#joinmailinglist {
+    /* position: absolute; */
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: antiquewhite;
+
+}
+
+#joinmailinglist form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#joinmailinglist input[type="submit"],
+#showformbutton {
+    font-size: 100%;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    background-color: green;
+    color: white;
+    padding: .5rem;
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px 3px black;
+    transition: all ease-in-out 300ms;
+}
+
+#joinmailinglist input[type="submit"]:hover,
+#showformbutton:hover {
+    background-color: black;
+    color: green;
+}
+
+#joinmailinglist input[type="submit"]:active,
+#showformbutton:active {
+    box-shadow: 1px 1px 4px 1px black;
+}

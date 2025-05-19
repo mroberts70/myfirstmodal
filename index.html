@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My First Modal</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://picsum.photos/200" alt="">
+        <div>
+            <h2>My First Modal</h2>
+            <h3>This is nifty</h3>
+        </div>
+    </header>
+    <main>
+        <div class="joinlist">
+            <button id="showformbutton" onclick="showTheForm()">Join My Mailing List</button>
+        </div>
+        <dialog id="joinmailinglist">
+            <form action="#" method="get">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+                <input type="submit" value="Submit">
+            </form>
+        </dialog>
+    </main>
+    <footer>
+        <p>&copy;<span id="copyright"></span> Michael Roberts Productions</p>
+    </footer>
+</body>
+
+</html>
+<script src="js/scripts.js"></script>
