@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     position: relative;
     background-color: darkslategrey;
+    color: bisque;
 }
 
 body {
@@ -31,9 +32,12 @@ header img {
     max-width: 100px;
     border-radius: 50px;
 }
-
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
 #joinmailinglist {
-    /* position: absolute; */
     margin: auto;
     border: 1px solid black;
     border-radius: 7px;
